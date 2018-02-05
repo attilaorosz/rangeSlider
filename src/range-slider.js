@@ -35,7 +35,7 @@ const defaults = {
  * @param {HTMLElement} element
  * @param {this} options
  */
-export default class RangeSlider {
+export class RangeSlider {
   constructor(element, options) {
     let minSetByDefault;
     let maxSetByDefault;
